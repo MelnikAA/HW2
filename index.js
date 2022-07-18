@@ -1,5 +1,4 @@
 import motorists from '/motorists.json' assert {type:'json'};
-console.log(motorists);
 
 for (let i = 0; i < motorists.length; i++) {
     const tr = $('<tr/>');
